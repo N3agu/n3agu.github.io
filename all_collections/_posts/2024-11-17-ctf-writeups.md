@@ -133,11 +133,15 @@ vol -f spyagency3.bin windows.dumpfiles.DumpFiles --physaddr 0x3fefb8c0
 ```
 to extract the zip file from the dump.
 
-After that, I've unzipped the archive and managed to find app-release.apk/app-release/res/drawable/coordinates_can_be_found_here.jpg. Used:
+After that, I've unzipped the archive and managed to find
+```
+app-release.apk/app-release/res/drawable/coordinates_can_be_found_here.jpg
+```
+I then used:
 ```
 exiftool coordinates_can_be_found_here.jpg
 ```
-and got the coordinates: `"-coordinates=44.44672703736637, 26.098652847616506"`
+and got the coordinates: "-coordinates=`44.44672703736637`, `26.098652847616506`"
 
 Pasting the [coordinates on google maps](https://www.google.com/maps/place/44%C2%B026'48.2%22N+26%C2%B005'55.2%22E/@44.4467332,26.0983283,20z/data=!4m4!3m3!8m2!3d44.446727!4d26.0986528?entry=ttu) we get the location, which is "Pizza Hut". The flag is ctf{sha256(pizzahut)}:
 ```
