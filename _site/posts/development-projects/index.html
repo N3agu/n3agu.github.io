@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>N3agu Portfolio | Development Projects</title>
+  
+  <link rel="stylesheet" href="/assets/css/post.css" />
+  <link rel="stylesheet" href="/assets/css/syntax.css" />
+  
+  <link rel="stylesheet" href="/assets/css/common.css" />
+  <script src="/assets/js/categories.js"></script>
+  <script>
+    const currentTheme = localStorage.getItem("theme");
+    if (currentTheme) {
+      document.documentElement.setAttribute(
+        "data-theme",
+        localStorage.getItem("theme")
+      );
+    }
+  </script>
+  
+  <script defer src="/assets/js/lbox.js"></script>
+  
+</head>
+
+  <body>
+    <main>
+      <header>
+  <a class="site-title" href="/">N3agu Portfolio</a>
+  <!-- dark/light mode -->
+  <span id="dark-mode-toggle" style="cursor: pointer">
+    <svg
+      stroke="currentColor"
+      fill="currentColor"
+      stroke-width="0"
+      viewBox="0 0 16 16"
+      height="1.2em"
+      width="1.2em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm0 13V2a6 6 0 1 1 0 12z"
+      ></path>
+    </svg>
+  </span>
+</header>
+
+      <section class="article">
+        <div class="article-header">
+          <h2 class="article-title">Development Projects</h2>
+          <small class="date">17 Nov 2024</small>
+          <div class="categories">
+            
+            <a href="#!" class="category">Software Development</a>
+            
+          </div>
+        </div>
+        <div class="content"><h3 id="--akame-loader">- <a href="https://github.com/N3agu/Akame-Loader">Akame Loader</a></h3>
+<p>Akame is an open-source, UD shellcode loader written in C++17.</p>
+
+<p>Analyzing the control flow graph with IDA:
+<img src="https://raw.githubusercontent.com/N3agu/Akame-Loader/main/Images/graph.png" alt="ida" /></p>
+<h3 id="--drakensang-internal">- <a href="https://github.com/N3agu/Drakensang-Internal">Drakensang Internal</a></h3>
+<p>Drakensang Injector &amp; Internal Cheat.
+<img src="https://raw.githubusercontent.com/N3agu/Drakensang-Internal/main/images/camera.png" alt="dsocamera" /></p>
+<h3 id="--vaultrix">- <a href="https://github.com/N3agu/Vaultrix">Vaultrix</a></h3>
+<p>Vaultrix is an open-source password manager built with C# and WinForms.
+<img src="https://raw.githubusercontent.com/N3agu/Vaultrix/refs/heads/main/Images/Main.png" alt="vaultrix" /></p>
+<h3 id="--arduino-badusb">- <a href="https://github.com/N3agu/Arduino-BadUSB">Arduino BadUSB</a></h3>
+<p>A list of useful scripts that can be used while performing penetration tests with an Arduino Pro Micro
+<img src="https://habrastorage.org/getpro/habr/upload_files/9ba/219/b64/9ba219b646f2945bde6dad0a1148a7ab.jpeg" alt="badusb" /></p>
+</div>
+      </section>
+      <footer>
+  <p>&copy; 2024 | N3agu Portfolio</p>
+</footer>
+<script src="/assets/js/mode.js" defer></script>
+
+    </main>
+    <section id="category-modal-bg"></section>
+<section id="category-modal">
+  <h1 id="category-modal-title"></h1>
+  <section id="category-modal-content"></section>
+</section>
+
+  </body>
+</html>
