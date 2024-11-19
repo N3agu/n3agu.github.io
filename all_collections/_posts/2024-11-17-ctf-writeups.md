@@ -5,9 +5,16 @@ date: 2024-11-17 10:00
 categories: ["TryHackMe", "HackTheBox", "PicoCTF", "CyberEDU", "ROCSC"]
 ---
 
+# Introduction
 Documenting challenges and solutions from various Capture The Flag competitions.
+###### [>> Web](#web)
+###### [>> Forensics](#forensics)
+###### [>> Miscellaneous](#misc)
+###### [>> Reverse Engineering](#reverse)
+###### [>> Cryptography](#crypto)
 
-# 1. Web
+
+<h1 id="web">1. Web</h1>
 #### - include-this
 
 > Platform: CyberEDU
@@ -101,7 +108,7 @@ After using the same function on the encrypted text, it gave me the flag:
 ctf{1b8fa7f33da67dfeb1d5f79850dcf13630b5563e98566bf7b76281d409d728c6}.
 ```
 
-# 2. Forensics
+<h1 id="forensics">2. Forensics</h1>
 #### - this-file-hides-something
 > Platform: CyberEDU
 >
@@ -196,7 +203,7 @@ to access the hidden stream and retrieve the flag:
 ctf{7ce5567830a2f9f8ce8a7e39856adfe5208242f6bce01ca9af1a230637d65a2d}
 ```
 
-# 3. Miscellaneous
+<h1 id="misc">3. Miscellaneous</h1>
 #### - linux-recovery
 > Platform: ROCSC
 >
@@ -231,7 +238,7 @@ flag = string_xor(decoded_string, key_guess)
 print(f"Flag: {flag}")
 ```
 
-# 4. Reverse Engineering
+<h1 id="reverse">4. Reverse Engineering</h1>
 #### - unconditional
 > Platform: ROCSC
 >
@@ -249,7 +256,7 @@ Reversing the operations gives you: CTF{You-know-you-got-me-after-you-sha256-me}
 CTF{e60100e9b047ca672947fdae0f114b3b052d33955c81b6df767843a4ffde439e}
 ```
 
-# 5. Cryptography
+<h1 id="crypto">5. Cryptography</h1>
 #### - solve-this
 > Platform: ROCSC
 >
