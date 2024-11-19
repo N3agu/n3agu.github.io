@@ -12,7 +12,7 @@ Documenting challenges and solutions from various Capture The Flag competitions.
 ###### [>> Miscellaneous](#misc)
 ###### [>> Reverse Engineering](#reverse)
 ###### [>> Cryptography](#crypto)
-
+###### [>> Steganography](#stegano)
 
 <h1 id="web">1. Web</h1>
 #### - include-this
@@ -281,7 +281,7 @@ I found that x was 588581747331 and submited the flag: flag{sha256(588581747331)
 flag{b2a3253556aeb3bb0f1782c083e90b6de968688d3f435863b82597e6f5efe4c0}
 ```
 
-# 6. Steganography
+<h1 id="stegano">6. Steganography</h1>
 #### - tsunami-researcher
 > Platform: CyberEDU
 >
