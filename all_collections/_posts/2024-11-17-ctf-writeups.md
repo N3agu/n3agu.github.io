@@ -13,6 +13,7 @@ Documenting challenges and solutions from various Capture The Flag competitions.
 ###### [>> Reverse Engineering](#reverse)
 ###### [>> Cryptography](#crypto)
 ###### [>> Steganography](#stegano)
+###### [>> Threat Hunting](#threat)
 
 <h1 id="web">1. Web</h1>
 #### - include-this
@@ -298,3 +299,11 @@ CTF{cc3a329919391e291f0a41b7afd3877546f70813f0c06a8454912e0a92099369}.
 ```
 
 ![tsunami-researcher](https://raw.githubusercontent.com/N3agu/CTFs/main/images/tsunami-researcher.png)
+
+<h1 id="threat">7. Threat Hunting</h1>
+#### - siem-logs
+> Platform: CyberEDU
+>
+> We need your investigation skills on the siem2* Kibana index. The attack occured in 2018, it is reccommended to set your timeline prior to this year.
+
+I accessed Kibana and navigated to the "Discover" section. Following the challenge description, I changed the index pattern to siem-logs2*. Based on the second question, I searched for the keyword "student". This search revealed the following details: the IP address `103.53.43.239`, the malicious domain name `studentvisaconsultantsdelhi`, and the CMS used: `WordPress`.
