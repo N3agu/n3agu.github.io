@@ -1,19 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-17T13:50:28+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">N3agu Portfolio</title><author><name>N3agu</name></author><entry><title type="html">Development Projects</title><link href="http://localhost:4000/posts/development-projects/" rel="alternate" type="text/html" title="Development Projects" /><published>2024-11-17T12:00:00+00:00</published><updated>2024-11-17T12:00:00+00:00</updated><id>http://localhost:4000/posts/development-projects</id><content type="html" xml:base="http://localhost:4000/posts/development-projects/"><![CDATA[<h3 id="--akame-loader">- <a href="https://github.com/N3agu/Akame-Loader">Akame Loader</a></h3>
-<p>Akame is an open-source, UD shellcode loader written in C++17.</p>
-
-<p>Analyzing the control flow graph with IDA:
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-04T08:10:34+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">N3agu Portfolio</title><author><name>N3agu</name></author><entry><title type="html">Development Projects</title><link href="http://localhost:4000/posts/development-projects/" rel="alternate" type="text/html" title="Development Projects" /><published>2025-04-04T08:00:00+00:00</published><updated>2025-04-04T08:00:00+00:00</updated><id>http://localhost:4000/posts/development-projects</id><content type="html" xml:base="http://localhost:4000/posts/development-projects/"><![CDATA[<h3 id="--akame-loader">- <a href="https://github.com/N3agu/Akame-Loader">Akame Loader</a></h3>
+<p>Akame is an open-source, UD shellcode loader written in C++17.
+Analyzing the control flow graph with IDA:
 <img src="https://raw.githubusercontent.com/N3agu/Akame-Loader/main/Images/graph.png" alt="ida" /></p>
 <h3 id="--drakensang-internal">- <a href="https://github.com/N3agu/Drakensang-Internal">Drakensang Internal</a></h3>
 <p>Drakensang Injector &amp; Internal Cheat.
 <img src="https://raw.githubusercontent.com/N3agu/Drakensang-Internal/main/images/camera.png" alt="dsocamera" /></p>
+<h3 id="--ctf-library">- <a href="https://n3agu.github.io/CTF-Library/">CTF Library</a></h3>
+<p>A comprehensive platform for searching Capture The Flag writeups.
+<img src="https://raw.githubusercontent.com/N3agu/CTF-Library/refs/heads/main/images/screenshot.png" alt="badusb" /></p>
 <h3 id="--vaultrix">- <a href="https://github.com/N3agu/Vaultrix">Vaultrix</a></h3>
 <p>Vaultrix is an open-source password manager built with C# and WinForms.
 <img src="https://raw.githubusercontent.com/N3agu/Vaultrix/refs/heads/main/Images/Main.png" alt="vaultrix" /></p>
 <h3 id="--arduino-badusb">- <a href="https://github.com/N3agu/Arduino-BadUSB">Arduino BadUSB</a></h3>
-<p>A list of useful scripts that can be used while performing penetration tests with an Arduino Pro Micro
-<img src="https://habrastorage.org/getpro/habr/upload_files/9ba/219/b64/9ba219b646f2945bde6dad0a1148a7ab.jpeg" alt="badusb" /></p>]]></content><author><name>N3agu</name></author><category term="Software Development" /><summary type="html"><![CDATA[- Akame Loader Akame is an open-source, UD shellcode loader written in C++17.]]></summary></entry><entry><title type="html">CTF Writeups</title><link href="http://localhost:4000/posts/ctf-writeups/" rel="alternate" type="text/html" title="CTF Writeups" /><published>2024-11-17T10:00:00+00:00</published><updated>2024-11-17T10:00:00+00:00</updated><id>http://localhost:4000/posts/ctf-writeups</id><content type="html" xml:base="http://localhost:4000/posts/ctf-writeups/"><![CDATA[<p>Documenting challenges and solutions from various Capture The Flag competitions.</p>
+<p>A list of useful scripts that can be used while performing penetration tests with an Arduino Pro Micro.
+<img src="https://habrastorage.org/getpro/habr/upload_files/9ba/219/b64/9ba219b646f2945bde6dad0a1148a7ab.jpeg" alt="badusb" /></p>]]></content><author><name>N3agu</name></author><category term="Software Development" /><summary type="html"><![CDATA[- Akame Loader Akame is an open-source, UD shellcode loader written in C++17. Analyzing the control flow graph with IDA: - Drakensang Internal Drakensang Injector &amp; Internal Cheat. - CTF Library A comprehensive platform for searching Capture The Flag writeups. - Vaultrix Vaultrix is an open-source password manager built with C# and WinForms. - Arduino BadUSB A list of useful scripts that can be used while performing penetration tests with an Arduino Pro Micro.]]></summary></entry><entry><title type="html">Malware Analysis</title><link href="http://localhost:4000/posts/malware-analysis/" rel="alternate" type="text/html" title="Malware Analysis" /><published>2025-04-04T05:00:00+00:00</published><updated>2025-04-04T05:00:00+00:00</updated><id>http://localhost:4000/posts/malware-analysis</id><content type="html" xml:base="http://localhost:4000/posts/malware-analysis/"><![CDATA[<h3 id="--conti-ransomware">- <a href="https://github.com/N3agu/Conti-Ransomware-Analysis">Conti Ransomware</a></h3>
+<p>A detailed analysis of the Conti Ransomware leaked source code</p>
 
-<h1 id="1-web">1. Web</h1>
+<p><img src="https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2022/05/ransomware-as-a-service-affiliate-model-social-4.png" alt="RaaS" /></p>]]></content><author><name>N3agu</name></author><category term="Malware" /><category term="Reverse Engineering" /><summary type="html"><![CDATA[- Conti Ransomware A detailed analysis of the Conti Ransomware leaked source code]]></summary></entry><entry><title type="html">CTF Writeups</title><link href="http://localhost:4000/posts/ctf-writeups/" rel="alternate" type="text/html" title="CTF Writeups" /><published>2024-11-17T10:00:00+00:00</published><updated>2024-11-17T10:00:00+00:00</updated><id>http://localhost:4000/posts/ctf-writeups</id><content type="html" xml:base="http://localhost:4000/posts/ctf-writeups/"><![CDATA[<h1 id="introduction">Introduction</h1>
+<p>Documenting challenges and solutions from various Capture The Flag competitions.</p>
+<h6 id="-web"><a href="#web">» Web</a></h6>
+<h6 id="-forensics"><a href="#forensics">» Forensics</a></h6>
+<h6 id="-miscellaneous"><a href="#misc">» Miscellaneous</a></h6>
+<h6 id="-reverse-engineering"><a href="#reverse">» Reverse Engineering</a></h6>
+<h6 id="-cryptography"><a href="#crypto">» Cryptography</a></h6>
+<h6 id="-steganography"><a href="#stegano">» Steganography</a></h6>
+<h6 id="-threat-hunting"><a href="#threat">» Threat Hunting</a></h6>
+
+<h1 id="web">1. Web</h1>
 <h4 id="--include-this">- include-this</h4>
 
 <blockquote>
@@ -109,7 +122,7 @@ The flag was located in /home/gem/flag.txt:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ctf{1b8fa7f33da67dfeb1d5f79850dcf13630b5563e98566bf7b76281d409d728c6}.
 </code></pre></div></div>
 
-<h1 id="2-forensics">2. Forensics</h1>
+<h1 id="forensics">2. Forensics</h1>
 <h4 id="--this-file-hides-something">- this-file-hides-something</h4>
 <blockquote>
   <p>Platform: CyberEDU</p>
@@ -141,10 +154,13 @@ The flag was located in /home/gem/flag.txt:</p>
 </code></pre></div></div>
 <p>to extract the zip file from the dump.</p>
 
-<p>After that, I’ve unzipped the archive and managed to find app-release.apk/app-release/res/drawable/coordinates_can_be_found_here.jpg. Used:</p>
+<p>After that, I’ve unzipped the archive and managed to find</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>app-release.apk/app-release/res/drawable/coordinates_can_be_found_here.jpg
+</code></pre></div></div>
+<p>I then used:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exiftool coordinates_can_be_found_here.jpg
 </code></pre></div></div>
-<p>and got the coordinates: <code class="language-plaintext highlighter-rouge">"-coordinates=44.44672703736637, 26.098652847616506"</code></p>
+<p>and got the coordinates: “-coordinates=<code class="language-plaintext highlighter-rouge">44.44672703736637</code>, <code class="language-plaintext highlighter-rouge">26.098652847616506</code>”</p>
 
 <p>Pasting the <a href="https://www.google.com/maps/place/44%C2%B026'48.2%22N+26%C2%B005'55.2%22E/@44.4467332,26.0983283,20z/data=!4m4!3m3!8m2!3d44.446727!4d26.0986528?entry=ttu">coordinates on google maps</a> we get the location, which is “Pizza Hut”. The flag is ctf{sha256(pizzahut)}:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ctf{a939311a5c5be93e7a93d907ac4c22adb23ce45c39b8bfe2a26fb0d493521c4f}
@@ -194,7 +210,7 @@ The flag was located in /home/gem/flag.txt:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ctf{7ce5567830a2f9f8ce8a7e39856adfe5208242f6bce01ca9af1a230637d65a2d}
 </code></pre></div></div>
 
-<h1 id="3-miscellaneous">3. Miscellaneous</h1>
+<h1 id="misc">3. Miscellaneous</h1>
 <h4 id="--linux-recovery">- linux-recovery</h4>
 <blockquote>
   <p>Platform: ROCSC</p>
@@ -232,7 +248,7 @@ The flag was located in /home/gem/flag.txt:</p>
 <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Flag: </span><span class="si">{</span><span class="n">flag</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
 </code></pre></div></div>
 
-<h1 id="4-reverse-engineering">4. Reverse Engineering</h1>
+<h1 id="reverse">4. Reverse Engineering</h1>
 <h4 id="--unconditional">- unconditional</h4>
 <blockquote>
   <p>Platform: ROCSC</p>
@@ -250,7 +266,7 @@ The flag was located in /home/gem/flag.txt:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CTF{e60100e9b047ca672947fdae0f114b3b052d33955c81b6df767843a4ffde439e}
 </code></pre></div></div>
 
-<h1 id="5-cryptography">5. Cryptography</h1>
+<h1 id="crypto">5. Cryptography</h1>
 <h4 id="--solve-this">- solve-this</h4>
 <blockquote>
   <p>Platform: ROCSC</p>
@@ -275,7 +291,7 @@ The flag was located in /home/gem/flag.txt:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flag{b2a3253556aeb3bb0f1782c083e90b6de968688d3f435863b82597e6f5efe4c0}
 </code></pre></div></div>
 
-<h1 id="6-steganography">6. Steganography</h1>
+<h1 id="stegano">6. Steganography</h1>
 <h4 id="--tsunami-researcher">- tsunami-researcher</h4>
 <blockquote>
   <p>Platform: CyberEDU</p>
@@ -292,4 +308,14 @@ Goal: Use various techniques to analyse audio files in order to recover the flag
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CTF{cc3a329919391e291f0a41b7afd3877546f70813f0c06a8454912e0a92099369}.
 </code></pre></div></div>
 
-<p><img src="https://raw.githubusercontent.com/N3agu/CTFs/main/images/tsunami-researcher.png" alt="tsunami-researcher" /></p>]]></content><author><name>N3agu</name></author><category term="TryHackMe" /><category term="HackTheBox" /><category term="PicoCTF" /><category term="CyberEDU" /><category term="ROCSC" /><summary type="html"><![CDATA[Documenting challenges and solutions from various Capture The Flag competitions.]]></summary></entry><entry><title type="html">Reverse Engineering Malware Samples</title><link href="http://localhost:4000/posts/reverse-engineering/" rel="alternate" type="text/html" title="Reverse Engineering Malware Samples" /><published>2024-11-17T08:00:00+00:00</published><updated>2024-11-17T08:00:00+00:00</updated><id>http://localhost:4000/posts/reverse-engineering</id><content type="html" xml:base="http://localhost:4000/posts/reverse-engineering/"><![CDATA[<p>wip</p>]]></content><author><name>N3agu</name></author><category term="Malware" /><summary type="html"><![CDATA[wip]]></summary></entry></feed>
+<p><img src="https://raw.githubusercontent.com/N3agu/CTFs/main/images/tsunami-researcher.png" alt="tsunami-researcher" /></p>
+
+<h1 id="threat">7. Threat Hunting</h1>
+<h4 id="--siem-logs">- siem-logs</h4>
+<blockquote>
+  <p>Platform: CyberEDU</p>
+
+  <p>We need your investigation skills on the siem2* Kibana index. The attack occured in 2018, it is reccommended to set your timeline prior to this year.</p>
+</blockquote>
+
+<p>I accessed Kibana and navigated to the “Discover” section. Following the challenge description, I changed the index pattern to siem-logs2*. Based on the second question, I searched for the keyword “student”. This search revealed the following details: the IP address <code class="language-plaintext highlighter-rouge">103.53.43.239</code>, the malicious domain name <code class="language-plaintext highlighter-rouge">studentvisaconsultantsdelhi</code>, and the CMS used: <code class="language-plaintext highlighter-rouge">WordPress</code>.</p>]]></content><author><name>N3agu</name></author><category term="TryHackMe" /><category term="HackTheBox" /><category term="PicoCTF" /><category term="CyberEDU" /><category term="ROCSC" /><category term="DefCamp" /><summary type="html"><![CDATA[Introduction Documenting challenges and solutions from various Capture The Flag competitions. » Web » Forensics » Miscellaneous » Reverse Engineering » Cryptography » Steganography » Threat Hunting]]></summary></entry></feed>

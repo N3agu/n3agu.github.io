@@ -63,11 +63,21 @@
             
             <a href="#!" class="category">ROCSC</a>
             
+            <a href="#!" class="category">DefCamp</a>
+            
           </div>
         </div>
-        <div class="content"><p>Documenting challenges and solutions from various Capture The Flag competitions.</p>
+        <div class="content"><h1 id="introduction">Introduction</h1>
+<p>Documenting challenges and solutions from various Capture The Flag competitions.</p>
+<h6 id="-web"><a href="#web">» Web</a></h6>
+<h6 id="-forensics"><a href="#forensics">» Forensics</a></h6>
+<h6 id="-miscellaneous"><a href="#misc">» Miscellaneous</a></h6>
+<h6 id="-reverse-engineering"><a href="#reverse">» Reverse Engineering</a></h6>
+<h6 id="-cryptography"><a href="#crypto">» Cryptography</a></h6>
+<h6 id="-steganography"><a href="#stegano">» Steganography</a></h6>
+<h6 id="-threat-hunting"><a href="#threat">» Threat Hunting</a></h6>
 
-<h1 id="1-web">1. Web</h1>
+<h1 id="web">1. Web</h1>
 <h4 id="--include-this">- include-this</h4>
 
 <blockquote>
@@ -163,7 +173,7 @@ The flag was located in /home/gem/flag.txt:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ctf{1b8fa7f33da67dfeb1d5f79850dcf13630b5563e98566bf7b76281d409d728c6}.
 </code></pre></div></div>
 
-<h1 id="2-forensics">2. Forensics</h1>
+<h1 id="forensics">2. Forensics</h1>
 <h4 id="--this-file-hides-something">- this-file-hides-something</h4>
 <blockquote>
   <p>Platform: CyberEDU</p>
@@ -195,10 +205,13 @@ The flag was located in /home/gem/flag.txt:</p>
 </code></pre></div></div>
 <p>to extract the zip file from the dump.</p>
 
-<p>After that, I’ve unzipped the archive and managed to find app-release.apk/app-release/res/drawable/coordinates_can_be_found_here.jpg. Used:</p>
+<p>After that, I’ve unzipped the archive and managed to find</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>app-release.apk/app-release/res/drawable/coordinates_can_be_found_here.jpg
+</code></pre></div></div>
+<p>I then used:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exiftool coordinates_can_be_found_here.jpg
 </code></pre></div></div>
-<p>and got the coordinates: <code class="language-plaintext highlighter-rouge">"-coordinates=44.44672703736637, 26.098652847616506"</code></p>
+<p>and got the coordinates: “-coordinates=<code class="language-plaintext highlighter-rouge">44.44672703736637</code>, <code class="language-plaintext highlighter-rouge">26.098652847616506</code>”</p>
 
 <p>Pasting the <a href="https://www.google.com/maps/place/44%C2%B026'48.2%22N+26%C2%B005'55.2%22E/@44.4467332,26.0983283,20z/data=!4m4!3m3!8m2!3d44.446727!4d26.0986528?entry=ttu">coordinates on google maps</a> we get the location, which is “Pizza Hut”. The flag is ctf{sha256(pizzahut)}:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ctf{a939311a5c5be93e7a93d907ac4c22adb23ce45c39b8bfe2a26fb0d493521c4f}
@@ -248,7 +261,7 @@ The flag was located in /home/gem/flag.txt:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ctf{7ce5567830a2f9f8ce8a7e39856adfe5208242f6bce01ca9af1a230637d65a2d}
 </code></pre></div></div>
 
-<h1 id="3-miscellaneous">3. Miscellaneous</h1>
+<h1 id="misc">3. Miscellaneous</h1>
 <h4 id="--linux-recovery">- linux-recovery</h4>
 <blockquote>
   <p>Platform: ROCSC</p>
@@ -286,7 +299,7 @@ The flag was located in /home/gem/flag.txt:</p>
 <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Flag: </span><span class="si">{</span><span class="n">flag</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
 </code></pre></div></div>
 
-<h1 id="4-reverse-engineering">4. Reverse Engineering</h1>
+<h1 id="reverse">4. Reverse Engineering</h1>
 <h4 id="--unconditional">- unconditional</h4>
 <blockquote>
   <p>Platform: ROCSC</p>
@@ -304,7 +317,7 @@ The flag was located in /home/gem/flag.txt:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CTF{e60100e9b047ca672947fdae0f114b3b052d33955c81b6df767843a4ffde439e}
 </code></pre></div></div>
 
-<h1 id="5-cryptography">5. Cryptography</h1>
+<h1 id="crypto">5. Cryptography</h1>
 <h4 id="--solve-this">- solve-this</h4>
 <blockquote>
   <p>Platform: ROCSC</p>
@@ -329,7 +342,7 @@ The flag was located in /home/gem/flag.txt:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flag{b2a3253556aeb3bb0f1782c083e90b6de968688d3f435863b82597e6f5efe4c0}
 </code></pre></div></div>
 
-<h1 id="6-steganography">6. Steganography</h1>
+<h1 id="stegano">6. Steganography</h1>
 <h4 id="--tsunami-researcher">- tsunami-researcher</h4>
 <blockquote>
   <p>Platform: CyberEDU</p>
@@ -347,10 +360,20 @@ Goal: Use various techniques to analyse audio files in order to recover the flag
 </code></pre></div></div>
 
 <p><img src="https://raw.githubusercontent.com/N3agu/CTFs/main/images/tsunami-researcher.png" alt="tsunami-researcher" /></p>
+
+<h1 id="threat">7. Threat Hunting</h1>
+<h4 id="--siem-logs">- siem-logs</h4>
+<blockquote>
+  <p>Platform: CyberEDU</p>
+
+  <p>We need your investigation skills on the siem2* Kibana index. The attack occured in 2018, it is reccommended to set your timeline prior to this year.</p>
+</blockquote>
+
+<p>I accessed Kibana and navigated to the “Discover” section. Following the challenge description, I changed the index pattern to siem-logs2*. Based on the second question, I searched for the keyword “student”. This search revealed the following details: the IP address <code class="language-plaintext highlighter-rouge">103.53.43.239</code>, the malicious domain name <code class="language-plaintext highlighter-rouge">studentvisaconsultantsdelhi</code>, and the CMS used: <code class="language-plaintext highlighter-rouge">WordPress</code>.</p>
 </div>
       </section>
       <footer>
-  <p>&copy; 2024 | N3agu Portfolio</p>
+  <p>&copy; 2025 | N3agu Portfolio</p>
 </footer>
 <script src="/assets/js/mode.js" defer></script>
 

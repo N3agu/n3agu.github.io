@@ -2,7 +2,7 @@
 layout: post
 title: CTF Writeups
 date: 2024-11-17 10:00
-categories: ["TryHackMe", "HackTheBox", "PicoCTF", "CyberEDU", "ROCSC"]
+categories: ["TryHackMe", "HackTheBox", "PicoCTF", "CyberEDU", "ROCSC", "DefCamp"]
 ---
 
 # Introduction
