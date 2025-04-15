@@ -5,13 +5,17 @@ date: 2025-04-04 8:00
 categories: ["Software Development"]
 ---
 
+### - [WPF MVVM Study](https://github.com/N3agu/WPF-MVVM-Study)
+A repository that documents my app development journey following Thomas Claudius Huber's WPF 6 fundamentals course.
+Analyzing the control flow graph with IDA:
+![mvvm](https://raw.githubusercontent.com/N3agu/WPF-MVVM-Study/refs/heads/main/Images/MVVMPattern.png)
+### - [Drakensang Internal](https://github.com/N3agu/Drakensang-Internal)
+Drakensang Injector & Internal Cheat.
+![dsocamera](https://raw.githubusercontent.com/N3agu/Drakensang-Internal/main/images/menu.png)
 ### - [Akame Loader](https://github.com/N3agu/Akame-Loader)
 Akame is an open-source, UD shellcode loader written in C++17.
 Analyzing the control flow graph with IDA:
 ![ida](https://raw.githubusercontent.com/N3agu/Akame-Loader/main/Images/graph.png)
-### - [Drakensang Internal](https://github.com/N3agu/Drakensang-Internal)
-Drakensang Injector & Internal Cheat.
-![dsocamera](https://raw.githubusercontent.com/N3agu/Drakensang-Internal/main/images/camera.png)
 ### - [CTF Library](https://n3agu.github.io/CTF-Library/)
 A comprehensive platform for searching Capture The Flag writeups.
 ![badusb](https://raw.githubusercontent.com/N3agu/CTF-Library/refs/heads/main/images/screenshot.png)
