@@ -5,9 +5,11 @@ date: 2025-04-04 8:00
 categories: ["Software Development"]
 ---
 
+### - [Maritime Data](https://github.com/N3agu/MaritimeData)
+A web application for managing and visualizing maritime data using ASP.NET Core (C#), Angular, and SQL, featuring RESTful APIs and interactive data visualizations.
+![mvvm](https://raw.githubusercontent.com/N3agu/MaritimeData/refs/heads/main/Images/Dashboard.png)
 ### - [WPF MVVM Study](https://github.com/N3agu/WPF-MVVM-Study)
 A repository that documents my app development journey following Thomas Claudius Huber's WPF 6 fundamentals course.
-Analyzing the control flow graph with IDA:
 ![mvvm](https://raw.githubusercontent.com/N3agu/WPF-MVVM-Study/refs/heads/main/Images/MVVMPattern.png)
 ### - [Drakensang Internal](https://github.com/N3agu/Drakensang-Internal)
 Drakensang Injector & Internal Cheat.
