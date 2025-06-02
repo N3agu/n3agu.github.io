@@ -5,6 +5,8 @@ date: 2025-04-04 8:00
 categories: ["Software Development"]
 ---
 
+### - [Vessel Management System](https://github.com/N3agu/Vessel-Management-System)
+A RESTful Vessel Management System built with C#, ASP.NET Core, Entity Framework, and SQL Server, featuring CRUD operations, a many-to-many relationship between ship owners and vessels, unit tests using xUnit, and a C# MVVM client application to consume the API.
 ### - [Maritime Data](https://github.com/N3agu/MaritimeData)
 A web application for managing and visualizing maritime data using ASP.NET Core (C#), Angular, and SQL, featuring RESTful APIs and interactive data visualizations.
 ![mvvm](https://raw.githubusercontent.com/N3agu/MaritimeData/refs/heads/main/Images/Dashboard.png)
