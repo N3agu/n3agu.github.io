@@ -7,9 +7,10 @@ categories: ["Software Development"]
 
 ### - [Vessel Management System](https://github.com/N3agu/Vessel-Management-System)
 A RESTful Vessel Management System built with C#, ASP.NET Core, Entity Framework, and SQL Server, featuring CRUD operations, a many-to-many relationship between ship owners and vessels, unit tests using xUnit, and a C# MVVM client application to consume the API.
+![vesselmanagement](https://raw.githubusercontent.com/N3agu/Vessel-Management-System/refs/heads/main/Images/ClientShips.png)
 ### - [Maritime Data](https://github.com/N3agu/MaritimeData)
 A web application for managing and visualizing maritime data using ASP.NET Core (C#), Angular, and SQL, featuring RESTful APIs and interactive data visualizations.
-![mvvm](https://raw.githubusercontent.com/N3agu/MaritimeData/refs/heads/main/Images/Dashboard.png)
+![maritimedata](https://raw.githubusercontent.com/N3agu/MaritimeData/refs/heads/main/Images/Dashboard.png)
 ### - [WPF MVVM Study](https://github.com/N3agu/WPF-MVVM-Study)
 A repository that documents my app development journey following Thomas Claudius Huber's WPF 6 fundamentals course.
 ![mvvm](https://raw.githubusercontent.com/N3agu/WPF-MVVM-Study/refs/heads/main/Images/MVVMPattern.png)
@@ -20,9 +21,9 @@ Drakensang Injector & Internal Cheat.
 Akame is an open-source, UD shellcode loader written in C++17.
 Analyzing the control flow graph with IDA:
 ![ida](https://raw.githubusercontent.com/N3agu/Akame-Loader/main/Images/graph.png)
-### - [CTF Library](https://n3agu.github.io/CTF-Library/)
+### - [CTFinder](https://n3agu.github.io/CTFinder)
 A comprehensive platform for searching Capture The Flag writeups.
-![badusb](https://raw.githubusercontent.com/N3agu/CTF-Library/refs/heads/main/images/screenshot.png)
+![ctfinder](https://raw.githubusercontent.com/N3agu/CTFinder/refs/heads/main/images/preview.png)
 ### - [Vaultrix](https://github.com/N3agu/Vaultrix)
 Vaultrix is an open-source password manager built with C# and WinForms.
 ![vaultrix](https://raw.githubusercontent.com/N3agu/Vaultrix/refs/heads/main/Images/Main.png)
